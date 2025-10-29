@@ -1,0 +1,17 @@
+# GitHub Pages Configuration
+# This file is optional for static HTML sites but can be useful for configuration
+
+# Site settings
+title: My Blog
+description: A simple blog hosted on GitHub Pages
+author: Your Name
+
+# Build settings
+# GitHub Pages uses Jekyll by default, but we're using plain HTML
+# This configuration disables Jekyll processing
+markdown: kramdown
+
+# Exclude files from being copied to the site
+exclude:
+  - README.md
+  - LICENSE
